@@ -1,0 +1,1733 @@
+{
+  "_meta": {
+    "description": "ハートピアスローライフ 収穫物データ（魚・昆虫・野鳥）。通常+Lv11~上級を収録。イベント限定物は天気フィルタが機能しない（全て全天気）ため除外。",
+    "source": "gamerch ハートピア攻略Wiki",
+    "weather_values": [
+      "全天気",
+      "晴虹",
+      "虹",
+      "雨雪虹"
+    ]
+  },
+  "fish": [
+    {
+      "name": "ヨーロピアンパーチ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全川",
+      "level": 1
+    },
+    {
+      "name": "コウライエビ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全川",
+      "level": 1
+    },
+    {
+      "name": "シマドジョウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "巨木の川",
+      "level": 1
+    },
+    {
+      "name": "バーベル",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "浅水川",
+      "level": 1
+    },
+    {
+      "name": "ダヌープストレバー",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "霞川",
+      "level": 1
+    },
+    {
+      "name": "ミノー",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "静川",
+      "level": 1
+    },
+    {
+      "name": "パイクパーチ",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "巨木の川",
+      "level": 3
+    },
+    {
+      "name": "ティラピア",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全川",
+      "level": 4
+    },
+    {
+      "name": "ヨーロッパコイ",
+      "weather": "晴虹",
+      "time": "12:00~24:00",
+      "location": "霞川",
+      "level": 4
+    },
+    {
+      "name": "カワメンタイ",
+      "weather": "全天気",
+      "time": "12:00~24:00",
+      "location": "静川",
+      "level": 4
+    },
+    {
+      "name": "レッドベリーピラニア",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "巨木の川",
+      "level": 4
+    },
+    {
+      "name": "カワギンポ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "霞川",
+      "level": 5
+    },
+    {
+      "name": "シロザケ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "静川",
+      "level": 6
+    },
+    {
+      "name": "イトヨ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "浅水川",
+      "level": 7
+    },
+    {
+      "name": "ドナウイトウ",
+      "weather": "虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "巨木の川",
+      "level": 9
+    },
+    {
+      "name": "チャブ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全湖",
+      "level": 1
+    },
+    {
+      "name": "テンチ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "森の湖",
+      "level": 1
+    },
+    {
+      "name": "マブナ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外の湖",
+      "level": 1
+    },
+    {
+      "name": "ブリーク",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全湖",
+      "level": 1
+    },
+    {
+      "name": "ホワイトフィッシュ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山の湖",
+      "level": 1
+    },
+    {
+      "name": "シュナイダー",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外の湖",
+      "level": 1
+    },
+    {
+      "name": "イシドジョウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外の湖",
+      "level": 2
+    },
+    {
+      "name": "ラッフ",
+      "weather": "全天気",
+      "time": "12:00~24:00",
+      "location": "温泉山の湖",
+      "level": 2
+    },
+    {
+      "name": "マッドサンフィッシュ",
+      "weather": "全天気",
+      "time": "6:00~24:00",
+      "location": "森の湖",
+      "level": 2
+    },
+    {
+      "name": "キュウリウオ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "草原の湖",
+      "level": 2
+    },
+    {
+      "name": "イガイ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "郊外の湖",
+      "level": 3
+    },
+    {
+      "name": "オタマジャクシ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "温泉山の湖",
+      "level": 3
+    },
+    {
+      "name": "北欧アカザエビ",
+      "weather": "全天気",
+      "time": "0:00~12:00,18:00~24:00",
+      "location": "森の湖",
+      "level": 3
+    },
+    {
+      "name": "ヨーロッパトノサマガエル",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全湖",
+      "level": 4
+    },
+    {
+      "name": "オオクチバス",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "森の湖",
+      "level": 4
+    },
+    {
+      "name": "サワガニ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外の湖",
+      "level": 4
+    },
+    {
+      "name": "バタフライコイ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "草原の湖",
+      "level": 4
+    },
+    {
+      "name": "マス",
+      "weather": "晴虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "草原の湖",
+      "level": 5
+    },
+    {
+      "name": "ラッド",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外の湖",
+      "level": 5
+    },
+    {
+      "name": "シンジュガイ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "森の湖",
+      "level": 6
+    },
+    {
+      "name": "カワヒメマス",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外の湖",
+      "level": 6
+    },
+    {
+      "name": "アプロケイルス",
+      "weather": "晴虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "郊外の湖",
+      "level": 7
+    },
+    {
+      "name": "カジカ",
+      "weather": "雨雪虹",
+      "time": "6:00~24:00",
+      "location": "温泉山の湖",
+      "level": 7
+    },
+    {
+      "name": "マッドミノー",
+      "weather": "晴虹",
+      "time": "0:00~12:00",
+      "location": "郊外の湖",
+      "level": 8
+    },
+    {
+      "name": "北欧ブルーアカザエビ",
+      "weather": "全天気",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "森の湖",
+      "level": 8
+    },
+    {
+      "name": "キンギョ",
+      "weather": "雨雪虹",
+      "time": "6:00~24:00",
+      "location": "草原の湖",
+      "level": 8
+    },
+    {
+      "name": "ノーザンパイク",
+      "weather": "雨雪虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "郊外の湖",
+      "level": 9
+    },
+    {
+      "name": "パンプキンシード",
+      "weather": "晴虹",
+      "time": "6:00~24:00",
+      "location": "温泉山の湖",
+      "level": 9
+    },
+    {
+      "name": "ヨーロッパナマズ",
+      "weather": "晴虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "草原の湖",
+      "level": 10
+    },
+    {
+      "name": "ブルーギル",
+      "weather": "晴虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "温泉山の湖",
+      "level": 10
+    },
+    {
+      "name": "ホッキョクイワナ",
+      "weather": "雨雪虹",
+      "time": "12:00~24:00",
+      "location": "森の湖",
+      "level": 10
+    },
+    {
+      "name": "ニシイワシ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全海",
+      "level": 1
+    },
+    {
+      "name": "スズキ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全海",
+      "level": 1
+    },
+    {
+      "name": "カツオ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全海",
+      "level": 1
+    },
+    {
+      "name": "タチウオ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "そよ風の海",
+      "level": 1
+    },
+    {
+      "name": "ウミエビ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "東海",
+      "level": 1
+    },
+    {
+      "name": "マアジ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "クジラ海",
+      "level": 1
+    },
+    {
+      "name": "ストライプトレッドマレット",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "海釣り",
+      "level": 1
+    },
+    {
+      "name": "フランスアジ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "そよ風の海",
+      "level": 2
+    },
+    {
+      "name": "アンコウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "海釣り",
+      "level": 2
+    },
+    {
+      "name": "ウミトゲウオ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "旧海",
+      "level": 1
+    },
+    {
+      "name": "タツノオトシゴ",
+      "weather": "全天気",
+      "time": "0:00~18:00",
+      "location": "クジラ海",
+      "level": 2
+    },
+    {
+      "name": "イシビラメ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "海釣り",
+      "level": 3
+    },
+    {
+      "name": "タイセイヨウサケ",
+      "weather": "全天気",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "クジラ海",
+      "level": 3
+    },
+    {
+      "name": "ピグミータコ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "そよ風の海",
+      "level": 1
+    },
+    {
+      "name": "ヤドカリ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "東海",
+      "level": 3
+    },
+    {
+      "name": "カクレクマノミ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "旧海",
+      "level": 3
+    },
+    {
+      "name": "マダコ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "海釣り",
+      "level": 4
+    },
+    {
+      "name": "カイブツギンザメ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "全海",
+      "level": 4
+    },
+    {
+      "name": "ハゼ",
+      "weather": "全天気",
+      "time": "6:00~18:00",
+      "location": "東海",
+      "level": 4
+    },
+    {
+      "name": "ヨーロッパヒラメ",
+      "weather": "全天気",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "旧海",
+      "level": 4
+    },
+    {
+      "name": "タイセイヨウサバ",
+      "weather": "晴虹",
+      "time": "12:00~24:00",
+      "location": "クジラ海",
+      "level": 5
+    },
+    {
+      "name": "ヨーロッパロブスター",
+      "weather": "全天気",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "そよ風の海",
+      "level": 5
+    },
+    {
+      "name": "ヨーロッパスルメイカ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "海釣り",
+      "level": 5
+    },
+    {
+      "name": "フグ",
+      "weather": "全天気",
+      "time": "12:00~24:00",
+      "location": "旧海",
+      "level": 6
+    },
+    {
+      "name": "タブ・ガーナード",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "東海",
+      "level": 6
+    },
+    {
+      "name": "ネコザメ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "海釣り",
+      "level": 6
+    },
+    {
+      "name": "リュウグウノツカイ",
+      "weather": "全天気",
+      "time": "6:00~18:00",
+      "location": "海釣り",
+      "level": 7
+    },
+    {
+      "name": "スペインダイ",
+      "weather": "雨雪虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "そよ風の海",
+      "level": 7
+    },
+    {
+      "name": "ヨーロッパウナギ",
+      "weather": "虹",
+      "time": "6:00~24:00",
+      "location": "旧海",
+      "level": 7
+    },
+    {
+      "name": "黄金タラバガニ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "海釣り",
+      "level": 8
+    },
+    {
+      "name": "タラバガニ",
+      "weather": "虹",
+      "time": "6:00~24:00",
+      "location": "クジラ海",
+      "level": 8
+    },
+    {
+      "name": "モンツキダラ",
+      "weather": "晴虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "東海",
+      "level": 8
+    },
+    {
+      "name": "ミナミマグロ",
+      "weather": "虹",
+      "time": "6:00~18:00",
+      "location": "そよ風の海",
+      "level": 9
+    },
+    {
+      "name": "マンボウ",
+      "weather": "全天気",
+      "time": "0:00~12:00",
+      "location": "東海",
+      "level": 9
+    },
+    {
+      "name": "アカマンボウ",
+      "weather": "全天気",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "海釣り",
+      "level": 9
+    },
+    {
+      "name": "メカジキ",
+      "weather": "虹",
+      "time": "6:00~18:00",
+      "location": "クジラ海",
+      "level": 10
+    },
+    {
+      "name": "シュモクザメ",
+      "weather": "虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "旧海",
+      "level": 10
+    },
+    {
+      "name": "アオザメ",
+      "weather": "虹",
+      "time": "6:00~18:00",
+      "location": "海釣り",
+      "level": 10
+    },
+    {
+      "name": "ライオンヘッド",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "温泉山湖",
+      "level": 11
+    },
+    {
+      "name": "アジアアロワナ",
+      "weather": "虹",
+      "time": "0:00~12:00,18:00~24:00",
+      "location": "草原の湖",
+      "level": 11
+    },
+    {
+      "name": "シマスズメダイ",
+      "weather": "晴虹",
+      "time": "12:00~24:00",
+      "location": "そよ風の海",
+      "level": 11
+    },
+    {
+      "name": "ジンベエザメ",
+      "weather": "晴虹",
+      "time": "0:00~12:00,18:00~24:00",
+      "location": "海釣り",
+      "level": 11
+    },
+    {
+      "name": "ベタ",
+      "weather": "雨雪虹",
+      "time": "12:00~24:00",
+      "location": "森の湖",
+      "level": 12
+    },
+    {
+      "name": "エンゼルフィッシュ",
+      "weather": "虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "郊外湖畔",
+      "level": 12
+    },
+    {
+      "name": "ミズクラゲ",
+      "weather": "雨雪虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "海釣り",
+      "level": 12
+    },
+    {
+      "name": "アオウミガメ",
+      "weather": "虹",
+      "time": "12:00~24:00",
+      "location": "クジラ海",
+      "level": 12
+    },
+    {
+      "name": "シイラ",
+      "weather": "虹",
+      "time": "6:00~18:00",
+      "location": "旧海",
+      "level": 12
+    },
+    {
+      "name": "ニザダイ",
+      "weather": "雨雪虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "旧海",
+      "level": 13
+    },
+    {
+      "name": "ミノカサゴ",
+      "weather": "雨雪虹",
+      "time": "0:00~12:00",
+      "location": "クジラ海",
+      "level": 13
+    },
+    {
+      "name": "レナーズラス",
+      "weather": "晴虹",
+      "time": "6:00~24:00",
+      "location": "東海",
+      "level": 14
+    },
+    {
+      "name": "シリキルリスズメダイ",
+      "weather": "晴虹",
+      "time": "12:00~24:00",
+      "location": "そよ風の海",
+      "level": 14
+    }
+  ],
+  "insect": [
+    {
+      "name": "キアゲハ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "森",
+      "level": 1
+    },
+    {
+      "name": "クモマツマキチョウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "中心街",
+      "level": 1
+    },
+    {
+      "name": "ヤマキチョウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外",
+      "level": 1
+    },
+    {
+      "name": "モンシロチョウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "漁村",
+      "level": 1
+    },
+    {
+      "name": "クリソクラオン",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山",
+      "level": 1
+    },
+    {
+      "name": "コバネアカホシカメムシ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "マイハウス付近(石上)",
+      "level": 1
+    },
+    {
+      "name": "アカイトトンボ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "水辺",
+      "level": 1
+    },
+    {
+      "name": "アスパラカズハムシ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "花畑",
+      "level": 1
+    },
+    {
+      "name": "イカルスヒメシジミ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "中心街",
+      "level": 2
+    },
+    {
+      "name": "ミドリニワハンミョウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山",
+      "level": 2
+    },
+    {
+      "name": "コウホウトラカミキリ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "森(草花壇)",
+      "level": 2
+    },
+    {
+      "name": "アオホシハナムグリ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "マイハウス付近(石上)",
+      "level": 2
+    },
+    {
+      "name": "シベリアヒナバッタ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "漁村(草花低木)",
+      "level": 2
+    },
+    {
+      "name": "ナナホシテントウ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "郊外",
+      "level": 2
+    },
+    {
+      "name": "ヨツボシトンボ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "郊外湖",
+      "level": 2
+    },
+    {
+      "name": "クマバチ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "花畑",
+      "level": 2
+    },
+    {
+      "name": "イリスコムラサキ",
+      "weather": "晴虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "花畑クジラ山",
+      "level": 3
+    },
+    {
+      "name": "アカエリトリバネアゲハ",
+      "weather": "全天気",
+      "time": "0:00~12:00,18:00~24:00",
+      "location": "マイハウス(低木地面)",
+      "level": 3
+    },
+    {
+      "name": "ヒメオナガミズアオ",
+      "weather": "晴虹",
+      "time": "6:00~24:00",
+      "location": "郊外(木の幹)",
+      "level": 3
+    },
+    {
+      "name": "アカハネムシ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山温泉(石上地面)",
+      "level": 3
+    },
+    {
+      "name": "シロマダラオバチ",
+      "weather": "全天気",
+      "time": "6:00~24:00",
+      "location": "森コジカ塔",
+      "level": 3
+    },
+    {
+      "name": "キリギリス",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "花畑パープルビーチ",
+      "level": 3
+    },
+    {
+      "name": "アリ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "漁村広場",
+      "level": 3
+    },
+    {
+      "name": "ツマグロヒョウモン",
+      "weather": "雨雪虹",
+      "time": "0:00~12:00,18:00~24:00",
+      "location": "漁村波止場",
+      "level": 4
+    },
+    {
+      "name": "アルキプテラフスカ",
+      "weather": "晴虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "郊外",
+      "level": 4
+    },
+    {
+      "name": "ヨツボシテントウ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "温泉山火山湖",
+      "level": 4
+    },
+    {
+      "name": "セミ",
+      "weather": "全天気",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "不思議な松林",
+      "level": 4
+    },
+    {
+      "name": "シオカラトンボ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "川辺",
+      "level": 4
+    },
+    {
+      "name": "ニジイロカマキリ",
+      "weather": "晴虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "温泉山(崖草花)",
+      "level": 4
+    },
+    {
+      "name": "クジャクチョウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "風車の花畑",
+      "level": 5
+    },
+    {
+      "name": "キベリタテハ",
+      "weather": "晴虹",
+      "time": "0:00~18:00",
+      "location": "温泉山温泉",
+      "level": 5
+    },
+    {
+      "name": "ナンベイオオヤガ",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "虫コイコイクエスト",
+      "level": 5
+    },
+    {
+      "name": "タケウチトゲムネカミキリ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "森の島",
+      "level": 5
+    },
+    {
+      "name": "ナミテントウ",
+      "weather": "雨雪虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "森コジカ塔(花上地面)",
+      "level": 5
+    },
+    {
+      "name": "パプアハラビロカマキリ",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "温泉山遺跡(花壇草)",
+      "level": 5
+    },
+    {
+      "name": "ムラサキクマバチ",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "クジラ山(大木低木)",
+      "level": 5
+    },
+    {
+      "name": "オオミドリトリバネアゲハ",
+      "weather": "全天気",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "郊外",
+      "level": 6
+    },
+    {
+      "name": "ミヤマクワガタ",
+      "weather": "雨雪虹",
+      "time": "6:00~24:00",
+      "location": "森ジャンプステージ",
+      "level": 6
+    },
+    {
+      "name": "シルバージュエルコガネ",
+      "weather": "晴虹",
+      "time": "0:00~18:00",
+      "location": "温泉山崖",
+      "level": 6
+    },
+    {
+      "name": "ルリクチブトカメムシ",
+      "weather": "全天気",
+      "time": "6:00~18:00",
+      "location": "漁村灯台(草上)",
+      "level": 6
+    },
+    {
+      "name": "アオハダトンボ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "森の湖",
+      "level": 6
+    },
+    {
+      "name": "メネラウスモルフォ",
+      "weather": "晴虹",
+      "time": "6:00~24:00",
+      "location": "不思議な松林",
+      "level": 7
+    },
+    {
+      "name": "アサギマダラ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "虫コイコイクエスト",
+      "level": 7
+    },
+    {
+      "name": "ミノタウロスコガネ",
+      "weather": "全天気",
+      "time": "0:00~18:00",
+      "location": "温泉山遺跡(崖地面)",
+      "level": 7
+    },
+    {
+      "name": "ビューティースペキオーサ",
+      "weather": "雨雪虹",
+      "time": "6:00~18:00",
+      "location": "花畑クジラ山(木の幹)",
+      "level": 7
+    },
+    {
+      "name": "ゴールドジュエルコガネ",
+      "weather": "晴虹",
+      "time": "12:00~24:00",
+      "location": "森ジャンプステージ",
+      "level": 7
+    },
+    {
+      "name": "ロサトンボ",
+      "weather": "虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "温泉山湖",
+      "level": 7
+    },
+    {
+      "name": "イザベラミズアオ",
+      "weather": "晴虹",
+      "time": "12:00~24:00",
+      "location": "不思議な松林",
+      "level": 8
+    },
+    {
+      "name": "マダガスカルムーンモス",
+      "weather": "晴虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "郊外(街灯)",
+      "level": 8
+    },
+    {
+      "name": "カブトムシ",
+      "weather": "晴虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "漁村東桟橋(丘の樹木)",
+      "level": 8
+    },
+    {
+      "name": "ピカソバグ",
+      "weather": "晴虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "花畑パープルビーチ(花壇)",
+      "level": 8
+    },
+    {
+      "name": "シンジュタテハ",
+      "weather": "雨雪虹",
+      "time": "0:00~12:00",
+      "location": "風車の花畑",
+      "level": 9
+    },
+    {
+      "name": "オウゴンオニクワガタ",
+      "weather": "雨雪虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "不思議な松林",
+      "level": 9
+    },
+    {
+      "name": "ヨウカイカマキリ",
+      "weather": "雨雪虹",
+      "time": "12:00~24:00",
+      "location": "温泉山遺跡(花地面)",
+      "level": 9
+    },
+    {
+      "name": "青いクマバチ",
+      "weather": "虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "漁村広場",
+      "level": 9
+    },
+    {
+      "name": "ヘレナモルフォ",
+      "weather": "虹",
+      "time": "6:00~18:00",
+      "location": "花畑パープルビーチ",
+      "level": 10
+    },
+    {
+      "name": "タイヨウモルフォ",
+      "weather": "虹",
+      "time": "6:00~18:00",
+      "location": "森コジカ塔",
+      "level": 10
+    },
+    {
+      "name": "ヘラクレスオオカブト",
+      "weather": "晴虹",
+      "time": "12:00~24:00",
+      "location": "火山湖",
+      "level": 10
+    },
+    {
+      "name": "クロツヤミノガ",
+      "weather": "晴虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "森コジカ塔(街灯/樹木)",
+      "level": 10
+    },
+    {
+      "name": "アレクサンドラトリバネアゲハ",
+      "weather": "晴虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "郊外湖畔",
+      "level": 11
+    },
+    {
+      "name": "ハナカマキリ",
+      "weather": "雨雪虹",
+      "time": "6:00~18:00",
+      "location": "温泉山-遺跡",
+      "level": 11
+    },
+    {
+      "name": "アトラスオオカブト",
+      "weather": "虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "不思議な松林",
+      "level": 11
+    },
+    {
+      "name": "ジュウサンホシテントウ",
+      "weather": "虹",
+      "time": "12:00~24:00",
+      "location": "クジラ山",
+      "level": 11
+    },
+    {
+      "name": "ミイロタイマイ",
+      "weather": "雨雪虹",
+      "time": "0:00~12:00,18:00~24:00",
+      "location": "風車の花畑",
+      "level": 12
+    },
+    {
+      "name": "オオサマゴライアス",
+      "weather": "虹",
+      "time": "0:00~6:00,18:00~24:00",
+      "location": "森林コジカ塔",
+      "level": 12
+    },
+    {
+      "name": "トウワタバッタ",
+      "weather": "雨雪虹",
+      "time": "6:00~18:00",
+      "location": "温泉山",
+      "level": 12
+    },
+    {
+      "name": "ベニトンボ",
+      "weather": "虹",
+      "time": "6:00~18:00",
+      "location": "草原の湖",
+      "level": 12
+    },
+    {
+      "name": "デイダミアモルフォ",
+      "weather": "虹",
+      "time": "12:00~24:00",
+      "location": "温泉山-火山湖",
+      "level": 13
+    },
+    {
+      "name": "ミドリカワトンボ",
+      "weather": "雨雪虹",
+      "time": "12:00~24:00",
+      "location": "郊外の湖畔周辺",
+      "level": 13
+    },
+    {
+      "name": "グラスウィングバラフライ",
+      "weather": "虹",
+      "time": "12:00~24:00",
+      "location": "花畑-クジラ山",
+      "level": 14
+    },
+    {
+      "name": "アオミオカタニシ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "森林-森林島",
+      "level": 14
+    }
+  ],
+  "bird": [
+    {
+      "name": "コマドリ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "中心街",
+      "level": 1
+    },
+    {
+      "name": "シジュウカラ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山",
+      "level": 1
+    },
+    {
+      "name": "ミソサザイ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "森",
+      "level": 1
+    },
+    {
+      "name": "ウソ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外",
+      "level": 1
+    },
+    {
+      "name": "ヒメモリバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "中心街",
+      "level": 1
+    },
+    {
+      "name": "ズアオアトリ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "花畑",
+      "level": 1
+    },
+    {
+      "name": "ソデグロバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "漁村",
+      "level": 1
+    },
+    {
+      "name": "オオフラミンゴ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "水辺",
+      "level": 1
+    },
+    {
+      "name": "マガモ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "湖",
+      "level": 1
+    },
+    {
+      "name": "ルリコンゴウインコ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "「巣ごもり」クエスト",
+      "level": 1
+    },
+    {
+      "name": "インドクジャク",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "「巣ごもり」クエスト",
+      "level": 1
+    },
+    {
+      "name": "シラコバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "マイハウス",
+      "level": 1
+    },
+    {
+      "name": "エナガ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "ブランクの頭のてっぺん",
+      "level": 2
+    },
+    {
+      "name": "ゴジュウカラ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "漁村",
+      "level": 2
+    },
+    {
+      "name": "ヒゲガラ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山",
+      "level": 2
+    },
+    {
+      "name": "ズアカモズ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外",
+      "level": 2
+    },
+    {
+      "name": "ウォンガバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "森",
+      "level": 2
+    },
+    {
+      "name": "コアオバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "花畑",
+      "level": 2
+    },
+    {
+      "name": "ヒドリガモ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "川辺",
+      "level": 2
+    },
+    {
+      "name": "カモメ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "海辺",
+      "level": 2
+    },
+    {
+      "name": "ニシコウライウグイス",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "マイハウス",
+      "level": 3
+    },
+    {
+      "name": "アカツクシガモ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外湖",
+      "level": 3
+    },
+    {
+      "name": "ケワタガモ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "川辺",
+      "level": 1
+    },
+    {
+      "name": "オデュアンカモメ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "クジラ海海辺",
+      "level": 3
+    },
+    {
+      "name": "ヨーロッパヒメウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "海",
+      "level": 3
+    },
+    {
+      "name": "カノコスズメ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "漁村灯台",
+      "level": 3
+    },
+    {
+      "name": "シマエナガ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "森ジャンプステージ",
+      "level": 3
+    },
+    {
+      "name": "ベニコンゴウインコ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "「巣ごもり」クエスト",
+      "level": 3
+    },
+    {
+      "name": "タイリクハクセキレイ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "花畑パープルビーチ",
+      "level": 4
+    },
+    {
+      "name": "ハイズキンダルマエナガ",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "漁村広場",
+      "level": 4
+    },
+    {
+      "name": "ギンザンマシコ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "森の島",
+      "level": 4
+    },
+    {
+      "name": "フウチョウモドキ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "不思議な松林",
+      "level": 4
+    },
+    {
+      "name": "ミコアイサ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "森の湖",
+      "level": 4
+    },
+    {
+      "name": "キンミノヒメアオバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "風車の花畑",
+      "level": 4
+    },
+    {
+      "name": "ギンケイ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山遺跡",
+      "level": 4
+    },
+    {
+      "name": "キバラメジロハエトリ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "漁村波止場",
+      "level": 5
+    },
+    {
+      "name": "ヨーロッパハチクイ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "温泉山湖",
+      "level": 5
+    },
+    {
+      "name": "ヒワコンゴウインコ",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "「巣ごもり」クエスト",
+      "level": 5
+    },
+    {
+      "name": "オリーブバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山温泉",
+      "level": 5
+    },
+    {
+      "name": "コフラミンゴ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "森湖",
+      "level": 5
+    },
+    {
+      "name": "クロアジサシ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "旧海",
+      "level": 5
+    },
+    {
+      "name": "シメ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山火山湖",
+      "level": 6
+    },
+    {
+      "name": "キンムネバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "漁村東の丘草むら",
+      "level": 6
+    },
+    {
+      "name": "チシマウガラス",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "旧海クジラ海",
+      "level": 6
+    },
+    {
+      "name": "トラフズク",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "温泉山崖",
+      "level": 6
+    },
+    {
+      "name": "ルリガラ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "風車の花畑",
+      "level": 7
+    },
+    {
+      "name": "スミレコンゴウインコ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "「巣ごもり」クエスト",
+      "level": 7
+    },
+    {
+      "name": "ボタンバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "郊外",
+      "level": 7
+    },
+    {
+      "name": "アジサシ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "東海",
+      "level": 7
+    },
+    {
+      "name": "チョウゲンボウ",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "森コジカ塔(木のてっぺん)",
+      "level": 7
+    },
+    {
+      "name": "ルリツグミ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "郊外",
+      "level": 8
+    },
+    {
+      "name": "ベニヒワ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "不思議な松林",
+      "level": 8
+    },
+    {
+      "name": "モモイロバト",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "花畑クジラ山",
+      "level": 8
+    },
+    {
+      "name": "ハヤブサ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "温泉山温泉崖",
+      "level": 8
+    },
+    {
+      "name": "ナナイロフウキンチョウ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "郊外",
+      "level": 9
+    },
+    {
+      "name": "ベニイロフラミンゴ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "花畑パープルビーチ",
+      "level": 9
+    },
+    {
+      "name": "マクジャク",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "「巣ごもり」クエスト※追加タイム",
+      "level": 9
+    },
+    {
+      "name": "カオジロオタテガモ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "温泉山湖",
+      "level": 9
+    },
+    {
+      "name": "インペリアルシャグ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "東海/そよ風の海",
+      "level": 9
+    },
+    {
+      "name": "アゾレスウソ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "漁村灯台",
+      "level": 10
+    },
+    {
+      "name": "ロクショウヒタキ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "森ジャンプステージ",
+      "level": 10
+    },
+    {
+      "name": "アカアシチョウゲンボウ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "温泉山遺跡崖",
+      "level": 10
+    },
+    {
+      "name": "ワシミミズク",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "森林コジカ塔",
+      "level": 10
+    },
+    {
+      "name": "クロヒゲバト",
+      "weather": "晴虹",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "郊外",
+      "level": 11
+    },
+    {
+      "name": "コムクドリ",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "花畑-風車の花畑",
+      "level": 11
+    },
+    {
+      "name": "インカアジサシ",
+      "weather": "雨雪虹",
+      "time": "6:00~24:00",
+      "location": "旧海",
+      "level": 11
+    },
+    {
+      "name": "トモエガモ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "温泉山の湖",
+      "level": 11
+    },
+    {
+      "name": "シロクジャク",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "巣ごもりクエスト追加タイム",
+      "level": 11
+    },
+    {
+      "name": "ニシツノメドリ",
+      "weather": "晴虹",
+      "time": "0:00~12:00,18:00~24:00",
+      "location": "クジラ海",
+      "level": 12
+    },
+    {
+      "name": "フヨウチョウ",
+      "weather": "虹",
+      "time": "全時間",
+      "location": "温泉山-火山湖",
+      "level": 12
+    },
+    {
+      "name": "アオアシカツオドリ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "そよ風の海",
+      "level": 12
+    },
+    {
+      "name": "シロフクロウ",
+      "weather": "全天気",
+      "time": "12:00~24:00",
+      "location": "不思議な松林",
+      "level": 12
+    },
+    {
+      "name": "クロクジャク",
+      "weather": "全天気",
+      "time": "全時間",
+      "location": "巣ごもりクエスト追加タイム",
+      "level": 13
+    },
+    {
+      "name": "オオハクチョウ",
+      "weather": "晴虹",
+      "time": "全時間",
+      "location": "郊外の湖",
+      "level": 13
+    },
+    {
+      "name": "コクチョウ",
+      "weather": "雨雪虹",
+      "time": "全時間",
+      "location": "郊外の湖",
+      "level": 14
+    },
+    {
+      "name": "メガネフクロウ",
+      "weather": "全天気",
+      "time": "6:00~12:00",
+      "location": "森林ジャンプステージ",
+      "level": 14
+    },
+    {
+      "name": "ナベコウ",
+      "weather": "全天気",
+      "time": "0:00~6:00,12:00~24:00",
+      "location": "草原の湖畔",
+      "level": 14
+    }
+  ]
+}
