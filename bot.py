@@ -218,10 +218,18 @@ async def on_ready():
     logger.info("Bot 起動完了: %s", bot.user)
 
 
+# 反応するチャンネル名（.env で設定、未設定なら全チャンネルで反応）
+ALLOWED_CHANNEL = os.getenv("ALLOWED_CHANNEL", "")
+
+
 @bot.event
 async def on_message(message: discord.Message):
     # Bot 自身のメッセージは無視
     if message.author.bot:
+        return
+
+    # チャンネル制限（設定されている場合のみ）
+    if ALLOWED_CHANNEL and message.channel.name != ALLOWED_CHANNEL:
         return
 
     # メッセージが「魚」「虫」「鳥」と完全一致したら天気選択を表示
