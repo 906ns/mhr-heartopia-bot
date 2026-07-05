@@ -1,0 +1,20 @@
+# systemd サービス定義: ハートピア収穫物検索 Discord Bot
+#
+# 使い方はリポジトリ直下の「ラズパイ移行ガイド.md」を参照。
+# ※ User と パスの「pi」の部分は、自分のラズパイのユーザー名に合わせて書き換えてください。
+
+[Unit]
+Description=Heartopia Harvest Search Discord Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/mhr-heartopia-bot
+ExecStart=/home/pi/mhr-heartopia-bot/.venv/bin/python bot.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
