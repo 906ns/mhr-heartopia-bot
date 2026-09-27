@@ -24,9 +24,10 @@ cp .env.example .env
 
 1. [Discord Developer Portal](https://discord.com/developers/applications) でアプリケーションを作成
 2. Bot を有効化してトークンをコピー
-3. OAuth2 → URL Generator で `bot` と `applications.commands` スコープを選択
-4. Bot Permissions で `Send Messages` を選択
-5. 生成された URL でサーバーに招待
+3. Bot 設定の Privileged Gateway Intents で **MESSAGE CONTENT INTENT** をオンにする（メッセージを読むために必須）
+4. OAuth2 → URL Generator で `bot` スコープを選択
+5. Bot Permissions で `Send Messages` を選択
+6. 生成された URL でサーバーに招待
 
 ### 4. Bot の起動
 
@@ -34,21 +35,40 @@ cp .env.example .env
 python bot.py
 ```
 
+Raspberry Pi で常時起動させる場合（systemd による自動起動・更新手順）は [ラズパイ移行ガイド.md](ラズパイ移行ガイド.md) を参照してください。
+
 ## 使い方
 
-1. サーバーで `/search` と入力
-2. カテゴリ（🐟魚 / 🦋虫 / 🐦鳥）を選択
-3. 天気（☀️晴 / 🌧️雨 / 🌈虹）を選択
-4. 結果が一覧表示されます（25件超はページ送り対応）
+- チャットに `魚`・`虫`・`鳥` のいずれかを送信する（ひらがなの `さかな`・`むし`・`とり` でも可、完全一致）
+- 表示されたボタンから天気（☀️ 晴 / 🌧️ 雨 / 🌈 虹）を選択する
+- 条件に合う収穫物が **レベル昇順** で一覧表示される
+- 結果が 11 件以上の場合は **「◀ 前へ」「次へ ▶」** ボタンでページを切り替える（1 ページあたり 10 件）
+
+## 注意事項
+
+- `魚`・`虫`・`鳥`（`さかな`・`むし`・`とり`）は **完全一致** のみ反応する（「魚釣り」「虫探し」などは無効）
+- 天気・ページングのボタンは **送信から 120 秒** で自動的に無効になる
+- データには **通常収穫物（Lv.1〜上級）** のみ収録されており、**イベント限定アイテムは含まれない**
+- 天気の対応は以下のとおり
+  - ☀️ 晴 → 全天気・晴虹 の収穫物
+  - 🌧️ 雨 → 全天気・雨雪虹 の収穫物
+  - 🌈 虹 → 全天気・晴虹・虹・雨雪虹 の収穫物（全件）
+- Bot が起動していない場合はメッセージに反応しない
+- `DISCORD_TOKEN` が未設定の場合、Bot は起動しない（`.env` を確認すること）
+- `.env` に `ALLOWED_CHANNEL=チャンネル名` を書くと、そのチャンネルでだけ反応する（未設定なら全チャンネル）
 
 ## ファイル構成
 
 ```
 mhr-heartopia-bot/
-├── bot.py              # メイン（スラッシュコマンドとUI）
+├── bot.py              # メイン（メッセージ反応とボタンUI）
 ├── weather_filter.py   # 天気絞り込みロジック
 ├── data/
 │   └── harvest.json    # 収穫物データ
+├── deploy/
+│   └── mhr-heartopia-bot.service  # Raspberry Pi 用 systemd サービス定義
+├── ラズパイ移行ガイド.md
+├── 使い方ガイド.txt
 ├── .env.example
 ├── requirements.txt
 └── README.md

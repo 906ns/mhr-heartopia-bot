@@ -38,11 +38,14 @@ except (json.JSONDecodeError, KeyError) as e:
     logger.error("データファイルの読み込みに失敗しました: %s", e)
     raise SystemExit(1)
 
-# メッセージ → カテゴリの対応（完全一致）
+# メッセージ → カテゴリの対応（完全一致、ひらがなにも対応）
 MESSAGE_TO_CATEGORY = {
     "魚": ("fish", "🐟 魚"),
+    "さかな": ("fish", "🐟 魚"),
     "虫": ("insect", "🦋 虫"),
+    "むし": ("insect", "🦋 虫"),
     "鳥": ("bird", "🐦 鳥"),
+    "とり": ("bird", "🐦 鳥"),
 }
 
 # 天気定義（ボタン表示名 → フィルタキー）
@@ -232,7 +235,7 @@ async def on_message(message: discord.Message):
     if ALLOWED_CHANNEL and message.channel.name != ALLOWED_CHANNEL:
         return
 
-    # メッセージが「魚」「虫」「鳥」と完全一致したら天気選択を表示
+    # メッセージが「魚」「虫」「鳥」（ひらがな可）と完全一致したら天気選択を表示
     text = message.content.strip()
     if text in MESSAGE_TO_CATEGORY:
         category_key, category_label = MESSAGE_TO_CATEGORY[text]
